@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <b><p><i style="color: rgb(153, 255, 0);">Image Gallery</i></p></b>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="gallery">
+            <img id="i1" src="IMAGES/black-clover-liebe-8000x4500-12141.png" onclick="enlargeImage(this)">
+            <img id="i2" src="IMAGES/boruto-naruto-uzumaki-dark-background-5k-5760x3240-7387.png" onclick="enlargeImage(this)">
+            <img id="i3" src="IMAGES/jujutsu-kaisen-5120x2880-9289.jpg" onclick="enlargeImage(this)">
+            <img id="i4" src="IMAGES/naruto-uzumaki-5k-5120x2880-10682.jpg" onclick="enlargeImage(this)">
+            <img id="i5" src="IMAGES/naruto-uzumaki-black-background-amoled-minimal-art-5k-5120x2880-8899.png" onclick="enlargeImage(this)">
+            <img id="i6" src="IMAGES/naruto-uzumaki-minato-namikaze-black-background-amoled-5k-8k-7680x4320-8096.jpg" onclick="enlargeImage(this)">
+            <img id="i7" src="IMAGES/sasuke-uchiha-naruto-minimal-art-amoled-black-background-5120x2880-8859.png" onclick="enlargeImage(this)">
+            <img id="i8" src="IMAGES/satoru-gojo-jujutsu-5120x2880-9276.jpg" onclick="enlargeImage(this)">
+
+        </div>
+    </div>
+    <footer>
+        Images are taken from Google.
+    </footer>
+     <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
